@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="CapaPresentacion.Formularios.FormsPrincipales" GeneratedClassName="ConfigLicencias">
+  <Profiles />
+  <Settings>
+    <Setting Name="Licencia30Dias" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8768684201930</Value>
+    </Setting>
+    <Setting Name="Licencia20Dias" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8768684201920</Value>
+    </Setting>
+    <Setting Name="Licencia10Dias" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8768684201910</Value>
+    </Setting>
+    <Setting Name="Licencia8Dias" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8768684201908</Value>
+    </Setting>
+    <Setting Name="LicenciaCompleta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">876868420192019</Value>
+    </Setting>
+    <Setting Name="LicenciaActual" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Licencia10Dias</Value>
+    </Setting>
+    <Setting Name="ConteoLicencia30" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ConteoLicencia20" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ConteoLicencia10" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ConteoLicencia8" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FechaConteo" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)">2020-02-03</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
