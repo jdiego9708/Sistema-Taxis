@@ -78,6 +78,7 @@
     <Compile Include="DTurnos.cs" />
     <Compile Include="DEmpleados.cs" />
     <Compile Include="DDetalle_vehiculos_estado.cs" />
+    <Compile Include="DEstados_vehiculos.cs" />
     <Compile Include="DVehiculos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

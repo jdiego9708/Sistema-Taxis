@@ -51,6 +51,7 @@
     <Compile Include="EDireccion_clientes.cs" />
     <Compile Include="EBarrios.cs" />
     <Compile Include="EDetalle_vehiculos_estado.cs" />
+    <Compile Include="EEstados_vehiculos.cs" />
     <Compile Include="EVehiculos.cs" />
     <Compile Include="EClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
