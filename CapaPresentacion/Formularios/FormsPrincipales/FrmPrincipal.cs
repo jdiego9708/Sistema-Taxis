@@ -13,6 +13,7 @@ using CapaPresentacion.Formularios.FormsReportes;
 using System.Configuration;
 using MouseKeyboardActivityMonitor;
 using MouseKeyboardActivityMonitor.WinApi;
+using CapaPresentacion.Formularios.FormsEstadosVehiculos;
 
 namespace CapaPresentacion.Formularios.FormsPrincipales
 {
@@ -370,8 +371,38 @@ namespace CapaPresentacion.Formularios.FormsPrincipales
             menuVehiculos.btnObservarVehiculo.Click += BtnObservarVehiculo_Click;
             menuVehiculos.btnInactivarVehiculo.Click += BtnInactivarVehiculo_Click;
             menuVehiculos.btnCarreras.Click += BtnCarreras_Click;
+            menuVehiculos.btnEstados.Click += BtnEstados_Click;
             container = new PoperContainer(menuVehiculos);
             container.Show(btnVehiculos);
+        }
+
+        private void BtnEstados_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FrmNuevoEstado frm = new FrmNuevoEstado
+                {
+                    TopLevel = false
+                };
+                Form FormComprobado = this.ComprobarExistencia(frm);
+                if (FormComprobado != null)
+                {
+                    frm.WindowState = FormWindowState.Normal;
+                    frm.Activate();
+                }
+                else
+                {
+                    this.panelPrincipal.Controls.Add(frm);
+                    this.panelPrincipal.Tag = frm;
+                    frm.Show();
+                }
+                frm.BringToFront();
+            }
+            catch (Exception ex)
+            {
+                Mensajes.MensajeErrorCompleto(this.Name, "BtnEstados_Click",
+                    "Hubo un error con el botón nuevo estado", ex.Message);
+            }
         }
 
         private void BtnCarreras_Click(object sender, EventArgs e)
