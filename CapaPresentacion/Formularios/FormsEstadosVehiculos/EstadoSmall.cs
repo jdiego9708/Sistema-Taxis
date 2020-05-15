@@ -40,6 +40,7 @@ namespace CapaPresentacion.Formularios.FormsEstadosVehiculos
         }
 
         private EEstados_vehiculos _eEstados_Vehiculos;
+
         public EEstados_vehiculos EEstados_Vehiculos
         {
             get => _eEstados_Vehiculos;

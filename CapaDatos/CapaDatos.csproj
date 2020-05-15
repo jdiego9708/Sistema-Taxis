@@ -66,6 +66,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Data.settings</DependentUpon>
     </Compile>
+    <Compile Include="DCronogramas.cs" />
     <Compile Include="DBases_clientes.cs" />
     <Compile Include="DCarreras.cs" />
     <Compile Include="DBarrios.cs" />

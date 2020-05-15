@@ -53,7 +53,7 @@
       <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1358.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="MouseKeyboardActivityMonitor, Version=4.0.5150.10665, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MouseKeyboardActivityMonitor.4.0.5150.10665\lib\net20\MouseKeyboardActivityMonitor.dll</HintPath>
@@ -405,6 +405,7 @@
     <Compile Include="Servicios\Hooks\HookManager.Structures.cs" />
     <Compile Include="Servicios\Hooks\HookManager.Windows.cs" />
     <Compile Include="Servicios\Hooks\MouseEventExtArgs.cs" />
+    <Compile Include="Servicios\MailHelpers.cs" />
     <Compile Include="Servicios\Mensajes.cs" />
     <Compile Include="Servicios\Mensajes\FrmInputBox.cs">
       <SubType>Form</SubType>
@@ -664,6 +665,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\No hay estados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No hay vehiculos.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

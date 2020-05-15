@@ -103,6 +103,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap No_hay_vehiculos {
+            get {
+                object obj = ResourceManager.GetObject("No_hay_vehiculos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pencil_32x32 {
             get {
                 object obj = ResourceManager.GetObject("pencil_32x32", resourceCulture);

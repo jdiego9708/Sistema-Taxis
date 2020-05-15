@@ -17,7 +17,15 @@ namespace CapaPresentacion.Formularios.FormsEstadosVehiculos
         public FrmEstados()
         {
             InitializeComponent();
+            this.Load += FrmEstados_Load;
         }
+
+        private void FrmEstados_Load(object sender, EventArgs e)
+        {
+            this.BuscarEstados("COMPLETO", "");
+        }
+
+        public event EventHandler OnEstadoClick;
 
         private void BuscarEstados(string tipo_busqueda, string texto_busqueda)
         {
@@ -37,6 +45,7 @@ namespace CapaPresentacion.Formularios.FormsEstadosVehiculos
                             {
                                 EEstados_Vehiculos = eEstado
                             };
+                            estadoSmall.OnEstadoClick += EstadoSmall_OnEstadoClick;
                             controls.Add(estadoSmall);
                         }
                     }
@@ -60,6 +69,11 @@ namespace CapaPresentacion.Formularios.FormsEstadosVehiculos
                 Mensajes.MensajeErrorCompleto(this.Name, "BuscarEstados",
                     "Hubo un error al buscar los estados", ex.Message);
             }
+        }
+
+        private void EstadoSmall_OnEstadoClick(object sender, EventArgs e)
+        {
+            this.OnEstadoClick?.Invoke(sender, e);
         }
     }
 }

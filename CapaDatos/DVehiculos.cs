@@ -314,6 +314,12 @@ namespace CapaDatos
             {
                 consulta.Append("WHERE Id_vehiculo = @Texto_busqueda ");
             }
+            else if (tipo_busqueda.Equals("TODO"))
+            {
+                consulta.Append("WHERE Placa like '%Texto_busqueda%' OR " +
+                    "Chofer like '%Texto_busqueda%' OR " +
+                    "Marca like '%Texto_busqueda%' ");
+            }
 
             consulta.Append("ORDER BY Id_vehiculo DESC ");
 

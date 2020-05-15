@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ECronogramas.cs" />
     <Compile Include="EBases_clientes.cs" />
     <Compile Include="ECarreras.cs" />
     <Compile Include="ECarreras_perdidas.cs" />
