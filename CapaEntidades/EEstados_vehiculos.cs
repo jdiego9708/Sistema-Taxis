@@ -18,11 +18,16 @@
         {
             try
             {
+                if (Convert.IsDBNull(row["Id_estado"]))
+                    return;
+
                 this.Id_estado = Convert.ToInt32(row["Id_estado"]);
                 this.Nombre_estado = Convert.ToString(row["Nombre_estado"]);
                 this.Alias_estado = Convert.ToString(row["Alias_estado"]);
                 this.Color_estado = Convert.ToString(row["Color_estado"]);
-                this.Color = this.ToColor(this.Color_estado);
+                this.ColorEstado = this.ToColor(this.Color_estado);
+                this.Color_letra = Convert.ToString(row["Color_letra"]);
+                this.ColorLetra = this.ToColor(this.Color_letra);
                 this.Enabled = Convert.ToString(row["Enabled"]);
             }
             catch (Exception ex)
@@ -35,12 +40,46 @@
         {
             try
             {
+                if (Convert.IsDBNull(dt.Rows[fila]["Id_estado"]))
+                    return;
+
                 this.Id_estado = Convert.ToInt32(dt.Rows[fila]["Id_estado"]);
                 this.Nombre_estado = Convert.ToString(dt.Rows[fila]["Nombre_estado"]);
                 this.Alias_estado = Convert.ToString(dt.Rows[fila]["Alias_estado"]);
                 this.Color_estado = Convert.ToString(dt.Rows[fila]["Color_estado"]);
-                this.Color = this.ToColor(this.Color_estado);
+                this.ColorEstado = this.ToColor(this.Color_estado);
+                this.Color_letra = Convert.ToString(dt.Rows[fila]["Color_letra"]);
+                this.ColorLetra = this.ToColor(this.Color_letra);
                 this.Enabled = Convert.ToString(dt.Rows[fila]["Enabled"]);
+            }
+            catch (Exception ex)
+            {
+                this.OnError?.Invoke(ex.Message, null);
+            }
+        }
+
+        public EEstados_vehiculos(int id_estado)
+        {
+            try
+            {
+                DataTable dt =
+                    BuscarEstados("ID ESTADO", id_estado.ToString(), out string rpta);
+                if (dt != null)
+                {
+                    this.Id_estado = Convert.ToInt32(dt.Rows[0]["Id_estado"]);
+                    this.Nombre_estado = Convert.ToString(dt.Rows[0]["Nombre_estado"]);
+                    this.Alias_estado = Convert.ToString(dt.Rows[0]["Alias_estado"]);
+                    this.Color_estado = Convert.ToString(dt.Rows[0]["Color_estado"]);
+                    this.ColorEstado = this.ToColor(this.Color_estado);
+                    this.Color_letra = Convert.ToString(dt.Rows[0]["Color_letra"]);
+                    this.ColorLetra = this.ToColor(this.Color_letra);
+                    this.Enabled = Convert.ToString(dt.Rows[0]["Enabled"]);
+                }
+                else
+                {
+                    if (!rpta.Equals("OK"))
+                        throw new Exception(rpta);
+                }
             }
             catch (Exception ex)
             {
@@ -74,7 +113,7 @@
             List<string> vs = new List<string>
             {
                estado.Nombre_estado,estado.Alias_estado,
-               estado.Color_estado, estado.Enabled
+               estado.Color_estado, estado.Color_letra, estado.Enabled
             };
             return DEstados_vehiculos.InsertarEstadoVehiculo(out id_estado, vs);
         }
@@ -84,29 +123,28 @@
             List<string> vs = new List<string>
             {
                estado.Nombre_estado,estado.Alias_estado,
-               estado.Color_estado, estado.Enabled
+               estado.Color_estado, estado.Color_letra, estado.Enabled
             };
             return DEstados_vehiculos.EditarEstadoVehiculo(id_estado, vs);
         }
-
 
         private int _id_estado;
         private string _nombre_estado;
         private string _alias_estado;
         private string _color_estado;
-        private string _fore_color;
+        private string _color_letra;
         private string _enabled;
-        private Color _color;
-        private Color _foreColor;
+        private Color _colorEstado;
+        private Color _colorLetra;
 
         public int Id_estado { get => _id_estado; set => _id_estado = value; }
         public string Nombre_estado { get => _nombre_estado; set => _nombre_estado = value; }
         public string Alias_estado { get => _alias_estado; set => _alias_estado = value; }
         public string Color_estado { get => _color_estado; set => _color_estado = value; }
         public string Enabled { get => _enabled; set => _enabled = value; }
-        public Color Color { get => _color; set => _color = value; }
-        public string Fore_color { get => _fore_color; set => _fore_color = value; }
-        public Color ForeColor { get => _foreColor; set => _foreColor = value; }
+        public Color ColorEstado { get => _colorEstado; set => _colorEstado = value; }
+        public string Color_letra { get => _color_letra; set => _color_letra = value; }
+        public Color ColorLetra { get => _colorLetra; set => _colorLetra = value; }
 
         public event EventHandler OnError;
 

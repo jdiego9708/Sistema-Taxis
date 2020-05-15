@@ -34,8 +34,8 @@ namespace CapaDatos
         #region METODO INSERTAR DETALLE VEHICULO
 
         public static string ConsultaInsertar =
-            "INSERT INTO Detalle_vehiculo_estado(Fecha, Id_vehiculo, Id_turno, Estado) " +
-                "VALUES(@Fecha, @Id_vehiculo, @Id_turno, @Estado); ";
+            "INSERT INTO Detalle_vehiculo_estado(Fecha, Id_vehiculo, Id_turno, Id_estado) " +
+                "VALUES(@Fecha, @Id_vehiculo, @Id_turno, @Id_estado); ";
         public static string InsertarVehiculo(out int id_detalle_vehiculo, List<string> vs)
         {
             id_detalle_vehiculo = 0;
@@ -89,12 +89,12 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(Id_turno);
                 contador += 1;
 
-                SQLiteParameter Estado = new SQLiteParameter
+                SQLiteParameter Id_estado = new SQLiteParameter
                 {
-                    ParameterName = "@Estado",
-                    Value = vs[contador].Trim().ToUpper()
+                    ParameterName = "@Id_estado",
+                    Value = Convert.ToInt32(vs[contador])
                 };
-                SqlCmd.Parameters.Add(Estado);
+                SqlCmd.Parameters.Add(Id_estado);
                 contador += 1;
 
                 int id = Convert.ToInt32(SqlCmd.ExecuteScalar());
@@ -136,7 +136,7 @@ namespace CapaDatos
             "Fecha = @Fecha, " +
             "Id_vehiculo = @Id_vehiculo, " +
             "Id_turno = @Id_turno, " +
-            "Estado = @Estado " +
+            "Id_estado = @Id_estado " +
             "WHERE Id_detalle_vehiculo = @Id_detalle_vehiculo ";
 
         public static string EditarVehiculo(int id_detalle_vehiculo, List<string> vs)
@@ -190,12 +190,12 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(Id_turno);
                 contador += 1;
 
-                SQLiteParameter Estado = new SQLiteParameter
+                SQLiteParameter Id_estado = new SQLiteParameter
                 {
-                    ParameterName = "@Estado",
-                    Value = vs[contador].Trim().ToUpper()
+                    ParameterName = "@Id_estado",
+                    Value = Convert.ToInt32(vs[contador])
                 };
-                SqlCmd.Parameters.Add(Estado);
+                SqlCmd.Parameters.Add(Id_estado);
                 contador += 1;
 
                 rpta = SqlCmd.ExecuteNonQuery() >= 1 ? "OK" : "NO se ingresó el registro";
@@ -235,7 +235,9 @@ namespace CapaDatos
                 "INNER JOIN Detalle_vehiculo_estado dvh " +
                 "ON vh.Id_vehiculo = dvh.Id_vehiculo " +
                 "INNER JOIN Turnos tur " +
-                "ON dvh.Id_turno = tur.Id_turno ");
+                "ON dvh.Id_turno = tur.Id_turno " +
+                "INNER JOIN Estados_vehiculos estvh " +
+                "ON dvh.Id_estado = estvh.Id_estado ");
 
             if (tipo_busqueda.Equals("COMPLETO"))
             {
@@ -339,7 +341,7 @@ namespace CapaDatos
                                             "WHERE car.Id_turno = @Texto_busqueda AND car.Estado_carrera = 'TERMINADA' " +
                                             "GROUP BY car.Id_vehiculo) as dcar " +
                                 "ON dvh.Id_vehiculo = dcar.Id_vehiculo " +
-                                "INNER JOIN Estados es ON dvh.Estado = es.Estado " +
+                                "INNER JOIN Estados_vehiculos es ON dvh.Id_estado = es.Id_estado " +
                                 "INNER JOIN Turnos tur ON dvh.Id_turno = tur.Id_turno " +
                                 "WHERE dvh.Fecha = @Fecha " +
                                 "and vh.Estado_vehiculo = 'ACTIVO' " +

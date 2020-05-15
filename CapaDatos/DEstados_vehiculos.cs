@@ -33,8 +33,9 @@ namespace CapaDatos
         public static string InsertarEstadoVehiculo(out int id_estado, List<string> vs)
         {
             id_estado = 0;
-            string consulta = "INSERT INTO Estados_vehiculos(Nombre_estado, Alias_estado, Color_estado, Enabled) " +
-                "VALUES(@Nombre_estado, @Alias_estado, @Color_estado, @Enabled); " +
+            string consulta = "INSERT INTO Estados_vehiculos(Nombre_estado, Alias_estado, Color_estado, " +
+                "Color_letra, Estado_order, Enabled) " +
+                "VALUES(@Nombre_estado, @Alias_estado, @Color_estado, @Color_letra, @Estado_order, @Enabled); " +
                 "SELECT last_insert_rowid() ";
 
             SQLiteConnection SqlCon = DConexion.Conex(out string rpta);
@@ -84,6 +85,22 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(Color_estado);
                 contador += 1;
 
+                SQLiteParameter Color_letra = new SQLiteParameter
+                {
+                    ParameterName = "@Color_letra",
+                    Value = vs[contador].Trim().ToUpper()
+                };
+                SqlCmd.Parameters.Add(Color_letra);
+                contador += 1;
+
+                SQLiteParameter Estado_order = new SQLiteParameter
+                {
+                    ParameterName = "@Estado_order",
+                    Value = Convert.ToInt32(vs[contador])
+                };
+                SqlCmd.Parameters.Add(Estado_order);
+                contador += 1;
+
                 SQLiteParameter Enabled = new SQLiteParameter
                 {
                     ParameterName = "@Enabled",
@@ -131,6 +148,8 @@ namespace CapaDatos
                 "Nombre_estado = @Nombre_estado, " +
                 "Alias_estado = @Alias_estado, " +
                 "Color_estado = @Color_estado, " +
+                "Color_letra = @Color_letra, " +
+                "Estado_order = @Estado_order, " +
                 "Enabled = @Enabled " +
                 "WHERE Id_estado = @Id_estado ";
 
@@ -179,6 +198,22 @@ namespace CapaDatos
                     Value = vs[contador].Trim().ToUpper()
                 };
                 SqlCmd.Parameters.Add(Color_estado);
+                contador += 1;
+
+                SQLiteParameter Color_letra = new SQLiteParameter
+                {
+                    ParameterName = "@Color_letra",
+                    Value = vs[contador].Trim().ToUpper()
+                };
+                SqlCmd.Parameters.Add(Color_letra);
+                contador += 1;
+
+                SQLiteParameter Estado_order = new SQLiteParameter
+                {
+                    ParameterName = "@Estado_order",
+                    Value = Convert.ToInt32(vs[contador])
+                };
+                SqlCmd.Parameters.Add(Estado_order);
                 contador += 1;
 
                 SQLiteParameter Enabled = new SQLiteParameter

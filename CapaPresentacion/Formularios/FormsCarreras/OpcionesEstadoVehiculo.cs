@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaEntidades;
+using CapaPresentacion.Formularios.FormsEstadosVehiculos;
 
 namespace CapaPresentacion.Formularios.FormsCarreras
 {
@@ -16,75 +17,68 @@ namespace CapaPresentacion.Formularios.FormsCarreras
         public OpcionesEstadoVehiculo()
         {
             InitializeComponent();
-            this.btnActivar.Click += BtnActivar_Click;
-            this.btnInactivar.Click += BtnInactivar_Click;
-            this.btnTurno.Click += BtnTurno_Click;
         }
 
         public event EventHandler OnCambiarEstado;
-
-        private void BtnTurno_Click(object sender, EventArgs e)
+    
+        public void BuscarEstados(string tipo_busqueda, string texto_busqueda)
         {
-            this.EstadoSeleccionado = "DE TURNO";
+            try
+            {
+                DataTable dtEstados = EEstados_vehiculos.BuscarEstados(tipo_busqueda, texto_busqueda, out string rpta);
+                this.panelEstados.clearDataSource();
+                if (dtEstados != null)
+                {
+                    List<UserControl> controls = new List<UserControl>();
+
+                    foreach(DataRow row in dtEstados.Rows)
+                    {
+                        EEstados_vehiculos eEstado = new EEstados_vehiculos(row);
+                        EstadoSmall estadoSmall = new EstadoSmall
+                        {
+                            EEstados_Vehiculos = eEstado,
+                        };
+                        estadoSmall.OnEstadoClick += EstadoSmall_OnEstadoClick;
+                        controls.Add(estadoSmall);
+                    }
+
+                    this.panelEstados.AddArrayControl(controls);
+                }
+            }
+            catch (Exception ex)
+            {
+                Mensajes.MensajeErrorCompleto(this.Name, "BuscarEstados",
+                    "Hubo un error al buscar los estados", ex.Message);
+            }
+        }
+
+        private void EstadoSmall_OnEstadoClick(object sender, EventArgs e)
+        {
+            EEstados_vehiculos eEstado = (EEstados_vehiculos)sender;
+            this.EstadoSeleccionado = eEstado;
             OnCambiarEstado?.Invoke(this, e);
         }
 
-        private void BtnInactivar_Click(object sender, EventArgs e)
+        private void Estado_actual(EEstados_vehiculos estado_actual)
         {
-            this.EstadoSeleccionado = "INACTIVO";
-            OnCambiarEstado?.Invoke(this, e);
+            this.txtEstado.Text = estado_actual.Nombre_estado + " - " + estado_actual.Alias_estado;
+
+            foreach(EstadoSmall estadoSmall in this.panelEstados.controlsUser)
+            {
+                if (estadoSmall.EEstados_Vehiculos.Id_estado !=
+                    estado_actual.Id_estado)
+                {
+                    estadoSmall.Enabled = false;
+                }
+            }                 
         }
 
-        private void BtnActivar_Click(object sender, EventArgs e)
-        {
-            this.EstadoSeleccionado = "ACTIVO";
-            OnCambiarEstado?.Invoke(this, e);
-        }
-
-        private void Estado_actual(string estado_actual)
-        {
-            this.txtEstado.Text = estado_actual;
-
-            if (estado_actual.Equals("ACTIVO"))
-            {
-                this.btnActivar.Enabled = false;
-                this.btnInactivar.Enabled = true;
-                this.btnTurno.Enabled = true;
-                return;
-            }
-
-            if (estado_actual.Equals("INACTIVO"))
-            {
-                this.btnActivar.Enabled = true;
-                this.btnInactivar.Enabled = false;
-                this.btnTurno.Enabled = true;
-                return;
-            }
-
-            if (string.IsNullOrEmpty(estado_actual))
-            {
-                this.btnActivar.Enabled = true;
-                this.btnInactivar.Enabled = false;
-                this.btnTurno.Enabled = true;
-                this.txtEstado.Text = "INACTIVO";
-                return;
-            }
-
-            if (estado_actual.Equals("DE TURNO"))
-            {
-                this.btnActivar.Enabled = true;
-                this.btnInactivar.Enabled = true;
-                this.btnTurno.Enabled = false;
-                return;
-            }           
-        }
-
-        private string _estadoActual;
-        private string _estadoSeleccionado;
+        private EEstados_vehiculos _estadoActual;
+        private EEstados_vehiculos _estadoSeleccionado;
         private EVehiculos _eVehiculo;
         private EDetalle_vehiculos_estado _eDetalle;
 
-        public string EstadoActual
+        public EEstados_vehiculos EstadoActual
         {
             get => _estadoActual;
             set
@@ -95,7 +89,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
         }
 
         public EVehiculos EVehiculo { get => _eVehiculo; set => _eVehiculo = value; }
-        public string EstadoSeleccionado { get => _estadoSeleccionado; set => _estadoSeleccionado = value; }
+        public EEstados_vehiculos EstadoSeleccionado { get => _estadoSeleccionado; set => _estadoSeleccionado = value; }
         public EDetalle_vehiculos_estado EDetalle { get => _eDetalle; set => _eDetalle = value; }
     }
 }

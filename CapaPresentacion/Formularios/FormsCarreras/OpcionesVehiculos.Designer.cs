@@ -32,10 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtVehiculo = new System.Windows.Forms.TextBox();
-            this.btnNuevaCarrera = new System.Windows.Forms.Button();
-            this.btnCambiarEstado = new System.Windows.Forms.Button();
+            this.btnAgregarObservacion = new System.Windows.Forms.Button();
             this.btnEditarVehiculo = new System.Windows.Forms.Button();
-            this.btnPerfil = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,41 +72,22 @@
             this.txtVehiculo.TabIndex = 0;
             this.txtVehiculo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // btnNuevaCarrera
+            // btnAgregarObservacion
             // 
-            this.btnNuevaCarrera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(141)))), ((int)(((byte)(163)))));
-            this.btnNuevaCarrera.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnNuevaCarrera.FlatAppearance.BorderSize = 0;
-            this.btnNuevaCarrera.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNuevaCarrera.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevaCarrera.ForeColor = System.Drawing.Color.White;
-            this.btnNuevaCarrera.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevaCarrera.Image")));
-            this.btnNuevaCarrera.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNuevaCarrera.Location = new System.Drawing.Point(3, 114);
-            this.btnNuevaCarrera.Name = "btnNuevaCarrera";
-            this.btnNuevaCarrera.Size = new System.Drawing.Size(112, 43);
-            this.btnNuevaCarrera.TabIndex = 16;
-            this.btnNuevaCarrera.Text = "Nueva \r\ncarrera";
-            this.btnNuevaCarrera.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnNuevaCarrera.UseVisualStyleBackColor = false;
-            // 
-            // btnCambiarEstado
-            // 
-            this.btnCambiarEstado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(141)))), ((int)(((byte)(163)))));
-            this.btnCambiarEstado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCambiarEstado.FlatAppearance.BorderSize = 0;
-            this.btnCambiarEstado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCambiarEstado.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCambiarEstado.ForeColor = System.Drawing.Color.White;
-            this.btnCambiarEstado.Image = ((System.Drawing.Image)(resources.GetObject("btnCambiarEstado.Image")));
-            this.btnCambiarEstado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCambiarEstado.Location = new System.Drawing.Point(115, 71);
-            this.btnCambiarEstado.Name = "btnCambiarEstado";
-            this.btnCambiarEstado.Size = new System.Drawing.Size(98, 43);
-            this.btnCambiarEstado.TabIndex = 13;
-            this.btnCambiarEstado.Text = "Cambiar \r\nestado";
-            this.btnCambiarEstado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnCambiarEstado.UseVisualStyleBackColor = false;
+            this.btnAgregarObservacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(141)))), ((int)(((byte)(163)))));
+            this.btnAgregarObservacion.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarObservacion.FlatAppearance.BorderSize = 0;
+            this.btnAgregarObservacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarObservacion.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarObservacion.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarObservacion.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregarObservacion.Image")));
+            this.btnAgregarObservacion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregarObservacion.Location = new System.Drawing.Point(3, 113);
+            this.btnAgregarObservacion.Name = "btnAgregarObservacion";
+            this.btnAgregarObservacion.Size = new System.Drawing.Size(210, 43);
+            this.btnAgregarObservacion.TabIndex = 16;
+            this.btnAgregarObservacion.Text = "Agregar\r\nobservación";
+            this.btnAgregarObservacion.UseVisualStyleBackColor = false;
             // 
             // btnEditarVehiculo
             // 
@@ -122,29 +101,10 @@
             this.btnEditarVehiculo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEditarVehiculo.Location = new System.Drawing.Point(3, 71);
             this.btnEditarVehiculo.Name = "btnEditarVehiculo";
-            this.btnEditarVehiculo.Size = new System.Drawing.Size(112, 43);
+            this.btnEditarVehiculo.Size = new System.Drawing.Size(210, 43);
             this.btnEditarVehiculo.TabIndex = 12;
             this.btnEditarVehiculo.Text = "Editar datos\r\nde vehículo";
-            this.btnEditarVehiculo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEditarVehiculo.UseVisualStyleBackColor = false;
-            // 
-            // btnPerfil
-            // 
-            this.btnPerfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(141)))), ((int)(((byte)(163)))));
-            this.btnPerfil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnPerfil.FlatAppearance.BorderSize = 0;
-            this.btnPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPerfil.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerfil.ForeColor = System.Drawing.Color.White;
-            this.btnPerfil.Image = ((System.Drawing.Image)(resources.GetObject("btnPerfil.Image")));
-            this.btnPerfil.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPerfil.Location = new System.Drawing.Point(115, 114);
-            this.btnPerfil.Name = "btnPerfil";
-            this.btnPerfil.Size = new System.Drawing.Size(98, 43);
-            this.btnPerfil.TabIndex = 17;
-            this.btnPerfil.Text = "Ver perfil";
-            this.btnPerfil.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPerfil.UseVisualStyleBackColor = false;
             // 
             // OpcionesVehiculos
             // 
@@ -152,11 +112,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Controls.Add(this.btnPerfil);
-            this.Controls.Add(this.btnNuevaCarrera);
+            this.Controls.Add(this.btnAgregarObservacion);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.btnCambiarEstado);
             this.Controls.Add(this.btnEditarVehiculo);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -172,11 +130,9 @@
         #endregion
 
         public System.Windows.Forms.Button btnEditarVehiculo;
-        public System.Windows.Forms.Button btnCambiarEstado;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox txtVehiculo;
-        public System.Windows.Forms.Button btnNuevaCarrera;
-        public System.Windows.Forms.Button btnPerfil;
+        public System.Windows.Forms.Button btnAgregarObservacion;
     }
 }

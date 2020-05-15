@@ -137,6 +137,7 @@
     <Compile Include="Formularios\FormsCarreras\ConfigTime.Designer.cs">
       <DependentUpon>ConfigTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormsCarreras\EDetalleVehiculoEstadoCount.cs" />
     <Compile Include="Formularios\FormsCarreras\EnviarEmailCarreras.cs" />
     <Compile Include="Formularios\FormsCarreras\FrmAsignarVehiculos.cs">
       <SubType>Form</SubType>
@@ -161,12 +162,6 @@
     </Compile>
     <Compile Include="Formularios\FormsCarreras\FrmNuevaCarrera.Designer.cs">
       <DependentUpon>FrmNuevaCarrera.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsCarreras\FrmObservarCarreras.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsCarreras\FrmObservarCarreras.Designer.cs">
-      <DependentUpon>FrmObservarCarreras.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsCarreras\FrmReporteCarrera.cs">
       <SubType>Form</SubType>
@@ -228,6 +223,12 @@
     <Compile Include="Formularios\FormsClientes\FrmNuevoCliente.designer.cs">
       <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.Designer.cs">
+      <DependentUpon>FrmCronogramaVehiculos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormsDireccionClientes\DireccionSmall.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -257,6 +258,11 @@
     </Compile>
     <Compile Include="Formularios\FormsEmpleados\FrmObservarEmpleados.Designer.cs">
       <DependentUpon>FrmObservarEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormsEstadosVehiculos\Estados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Estados.settings</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsEstadosVehiculos\EstadoSmall.cs">
       <SubType>UserControl</SubType>
@@ -311,6 +317,11 @@
     </Compile>
     <Compile Include="Formularios\FormsPrincipales\FormsConfiguraciones\FrmConfiguracionAplicacion.designer.cs">
       <DependentUpon>FrmConfiguracionAplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormsPrincipales\FormsConfiguraciones\GeneralSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>GeneralSettings.settings</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsPrincipales\FrmIniciarSesion.cs">
       <SubType>Form</SubType>
@@ -442,6 +453,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Formularios\FormsEstadosVehiculos\Estados.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Estados.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Formularios\FormsPrincipales\FormsConfiguraciones\GeneralSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>GeneralSettings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Resources\No hay carreras.png" />
   </ItemGroup>
   <ItemGroup>
@@ -480,9 +499,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsCarreras\FrmNuevaCarrera.resx">
       <DependentUpon>FrmNuevaCarrera.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsCarreras\FrmObservarCarreras.resx">
-      <DependentUpon>FrmObservarCarreras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsCarreras\FrmReporteCarrera.resx">
       <DependentUpon>FrmReporteCarrera.cs</DependentUpon>

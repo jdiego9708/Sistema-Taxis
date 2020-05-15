@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.panelColor = new System.Windows.Forms.Panel();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.txtInfo = new System.Windows.Forms.TextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panelColor.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +41,7 @@
             this.panelColor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panelColor.Location = new System.Drawing.Point(2, 2);
             this.panelColor.Name = "panelColor";
-            this.panelColor.Size = new System.Drawing.Size(65, 65);
+            this.panelColor.Size = new System.Drawing.Size(65, 43);
             this.panelColor.TabIndex = 4;
             // 
             // txtInfo
@@ -49,13 +49,14 @@
             this.txtInfo.BackColor = System.Drawing.Color.White;
             this.txtInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.txtInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtInfo.Location = new System.Drawing.Point(3, 4);
             this.txtInfo.Multiline = true;
             this.txtInfo.Name = "txtInfo";
-            this.txtInfo.Size = new System.Drawing.Size(59, 57);
+            this.txtInfo.Size = new System.Drawing.Size(59, 35);
             this.txtInfo.TabIndex = 0;
+            this.txtInfo.Text = "ACTIVO";
             this.txtInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // EstadoSmall
@@ -69,7 +70,7 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "EstadoSmall";
-            this.Size = new System.Drawing.Size(70, 70);
+            this.Size = new System.Drawing.Size(70, 50);
             this.panelColor.ResumeLayout(false);
             this.panelColor.PerformLayout();
             this.ResumeLayout(false);
