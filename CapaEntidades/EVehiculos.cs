@@ -63,7 +63,8 @@ namespace CapaEntidades
                 vehiculo.Placa, vehiculo.Propietario,
                 vehiculo.Chofer, vehiculo.Marca,
                 vehiculo.Modelo, vehiculo.Color,
-                vehiculo.Estado_vehiculo
+                vehiculo.Estado_vehiculo,
+                vehiculo.Correo_chofer
             };
             return DVehiculos.InsertarVehiculo(id_vehiculo, vs);
         }
@@ -75,7 +76,7 @@ namespace CapaEntidades
             foreach (EVehiculos eVehiculo in eVehiculos)
             {
                 string consulta = "INSERT INTO Vehiculos " +
-                "(Id_vehiculo, Placa, Propietario, Chofer, Marca, Modelo, Color, Estado_vehiculo) " +
+                "(Id_vehiculo, Placa, Propietario, Chofer, Marca, Modelo, Color, Estado_vehiculo, Correo_chofer) " +
                 "VALUES('" + eVehiculo.Id_vehiculo + "',' " +
                 eVehiculo.Placa + "','" +
                 eVehiculo.Propietario + "','" +
@@ -83,7 +84,8 @@ namespace CapaEntidades
                 eVehiculo.Marca + "','" +
                 eVehiculo.Modelo + "','" +
                 eVehiculo.Color + "','" +
-                eVehiculo.Estado_vehiculo + "'); ";
+                eVehiculo.Estado_vehiculo + "','" +
+                eVehiculo.Correo_chofer + "'); ";
                 consultaCompleta.Append(consulta);
             }
 
@@ -97,11 +99,11 @@ namespace CapaEntidades
                 vehiculo.Placa, vehiculo.Propietario,
                 vehiculo.Chofer, vehiculo.Marca,
                 vehiculo.Modelo, vehiculo.Color,
-                vehiculo.Estado_vehiculo
+                vehiculo.Estado_vehiculo,
+                vehiculo.Correo_chofer,
             };
             return DVehiculos.EditarVehiculo(id_vehiculo, vs);
         }
-
 
         private int _id_vehiculo;
         private string _placa;
@@ -111,6 +113,7 @@ namespace CapaEntidades
         private string _modelo;
         private string _color;
         private string _estado_vehiculo;
+        private string _correo_chofer;
 
         public int Id_vehiculo { get => _id_vehiculo; set => _id_vehiculo = value; }
         public string Placa { get => _placa; set => _placa = value; }
@@ -120,6 +123,7 @@ namespace CapaEntidades
         public string Modelo { get => _modelo; set => _modelo = value; }
         public string Color { get => _color; set => _color = value; }
         public string Estado_vehiculo { get => _estado_vehiculo; set => _estado_vehiculo = value; }
+        public string Correo_chofer { get => _correo_chofer; set => _correo_chofer = value; }
 
         public event EventHandler OnError;
 

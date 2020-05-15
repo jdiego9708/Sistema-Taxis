@@ -229,6 +229,12 @@
     <Compile Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.Designer.cs">
       <DependentUpon>FrmCronogramaVehiculos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.Designer.cs">
+      <DependentUpon>VehiculoCronogramaSmall.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\FormsDireccionClientes\DireccionSmall.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -530,6 +536,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsClientes\FrmNuevoCliente.resx">
       <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.resx">
+      <DependentUpon>FrmCronogramaVehiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.resx">
+      <DependentUpon>VehiculoCronogramaSmall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsDireccionClientes\DireccionSmall.resx">
       <DependentUpon>DireccionSmall.cs</DependentUpon>
