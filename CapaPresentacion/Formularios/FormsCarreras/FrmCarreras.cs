@@ -141,7 +141,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                         ECarreras eCarrera = new ECarreras(rows[0]);
                         CarreraSmall carreraSmall = new CarreraSmall
                         {
-                            ECarrera = eCarrera
+                            ECarrera = eCarrera,
                         };
                         carreraSmall.OnTerminarCarrera += CarreraSmall_OnTerminarCarrera;
                         carreraSmall.OnCancelarCarrera += CarreraSmall_OnCancelarCarrera;
@@ -1188,14 +1188,25 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                 if (dialog == DialogResult.Yes)
                 {
                     eCarreras[0].Observaciones = mensaje;
+
+                    DataRow[] rows =
+                        this.dtCarrerasCompleto.Select(string.Format("Id_carrera = '{0}' ", eCarreras[0].Id_carrera));
+                    if (rows.Length > 0)
+                    {
+                        rows[0]["Observaciones"] = mensaje;
+                    }
+
+                    string rpta = ECarreras.EditarCarrera(eCarreras[0], eCarreras[0].Id_carrera);
+                    if (!rpta.Equals("OK"))
+                    {
+                        Mensajes.MensajeInformacion("No se pudo actualizar la observación de la carrera", "Entendido");
+                    }
                 }             
             }
             else
             {
                 Mensajes.MensajeInformacion("El vehículo no está en carrera", "Entendido");
-            }
-
-           
+            }         
         }
 
         private void OpcionesEstadoVehiculo_OnCambiarEstado(object sender, EventArgs e)

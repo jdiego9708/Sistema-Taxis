@@ -196,7 +196,8 @@ namespace CapaDatos
                 "Id_turno = @Id_turno, " +
                 "Lugar_ubicacion = @Lugar_ubicacion, " +
                 "Tiempo_llegada = @Tiempo_llegada, " +
-                "Estado_carrera = @Estado_carrera " +
+                "Estado_carrera = @Estado_carrera, " +
+                "Observaciones = @Observaciones " +
                 "WHERE Id_carrera = @Id_carrera ";
 
             SQLiteConnection SqlCon = DConexion.Conex(out string rpta);
