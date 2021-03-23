@@ -12,7 +12,7 @@ namespace CapaPresentacion.Formularios.FormsPrincipales {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.3.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
     internal sealed partial class ConfigLicencias : global::System.Configuration.ApplicationSettingsBase {
         
         private static ConfigLicencias defaultInstance = ((ConfigLicencias)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new ConfigLicencias())));
@@ -85,7 +85,7 @@ namespace CapaPresentacion.Formularios.FormsPrincipales {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Licencia10Dias")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Licencia8Dias")]
         public string LicenciaActual {
             get {
                 return ((string)(this["LicenciaActual"]));
@@ -145,7 +145,7 @@ namespace CapaPresentacion.Formularios.FormsPrincipales {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2020-02-03")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2021-03-22")]
         public global::System.DateTime FechaConteo {
             get {
                 return ((global::System.DateTime)(this["FechaConteo"]));

@@ -18,7 +18,7 @@
       <Value Profile="(Default)">876868420192019</Value>
     </Setting>
     <Setting Name="LicenciaActual" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Licencia10Dias</Value>
+      <Value Profile="(Default)">Licencia8Dias</Value>
     </Setting>
     <Setting Name="ConteoLicencia30" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">0</Value>
@@ -33,7 +33,7 @@
       <Value Profile="(Default)">0</Value>
     </Setting>
     <Setting Name="FechaConteo" Type="System.DateTime" Scope="User">
-      <Value Profile="(Default)">2020-02-03</Value>
+      <Value Profile="(Default)">2021-03-22</Value>
     </Setting>
   </Settings>
 </SettingsFile>
