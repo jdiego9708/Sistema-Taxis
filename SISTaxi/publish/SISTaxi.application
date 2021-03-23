@@ -7,7 +7,7 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\SISTaxi_1_0_0_24\SISTaxi.exe.manifest" size="33925">
+    <dependentAssembly dependencyType="install" codebase="Application Files\SISTaxi_1_0_0_25\SISTaxi.exe.manifest" size="33925">
       <assemblyIdentity name="SISTaxi.exe" version="1.0.0.24" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
