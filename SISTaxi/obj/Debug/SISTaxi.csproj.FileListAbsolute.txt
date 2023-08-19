@@ -1,0 +1,134 @@
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.csproj.AssemblyReference.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.Properties.Resources.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.csproj.GenerateResource.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.csproj.CoreCompileInputs.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.exe
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SQLite.Interop.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SISTaxi.exe.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SISTaxi.exe.manifest
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SISTaxi.application
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SISTaxi.exe
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\SISTaxi.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaPresentacion.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaEntidades.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\MouseKeyboardActivityMonitor.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaDatos.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\System.Data.SQLite.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaPresentacion.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaPresentacion.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaEntidades.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\MouseKeyboardActivityMonitor.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaDatos.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\CapaDatos.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\System.Data.SQLite.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\System.Data.SQLite.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.exe.manifest
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.application
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\SISTaxi\obj\Debug\SISTaxi.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SQLite.Interop.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SISTaxi.exe.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SISTaxi.exe.manifest
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SISTaxi.application
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SISTaxi.exe
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\SISTaxi.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaPresentacion.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaEntidades.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\MouseKeyboardActivityMonitor.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\Microsoft.ReportViewer.Common.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\System.Data.SQLite.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaPresentacion.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaPresentacion.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaEntidades.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\MouseKeyboardActivityMonitor.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\CapaDatos.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\System.Data.SQLite.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\System.Data.SQLite.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.csproj.AssemblyReference.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.Properties.Resources.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.csproj.GenerateResource.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.csproj.CoreCompileInputs.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.exe.manifest
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.application
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.exe
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\SISTaxi\obj\Debug\SISTaxi.pdb

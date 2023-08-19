@@ -11,7 +11,6 @@ using System.Timers;
 using CapaPresentacion.Formularios.FormsClientes;
 using CapaPresentacion.Formularios.FormsVehiculos;
 using System.Configuration;
-using CapaPresentacion.Servicios.Mensajes;
 
 namespace CapaPresentacion.Formularios.FormsCarreras
 {
@@ -47,8 +46,6 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             this.dgvCarreras.DoubleClick += DgvCarreras_DoubleClick;
             this.btnFinalizarTurno.Click += BtnFinalizarTurno_Click;
         }
-
-        public EEstados_vehiculos EEstadoInactivo { get; set; }
 
         private void BtnFinalizarTurno_Click(object sender, EventArgs e)
         {
@@ -117,7 +114,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                             this.Invoke(buscarVehiculosDelegate);
                         }
                         catch (Exception)
-                        {
+                        { 
 
                         }
                     }
@@ -141,7 +138,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                         ECarreras eCarrera = new ECarreras(rows[0]);
                         CarreraSmall carreraSmall = new CarreraSmall
                         {
-                            ECarrera = eCarrera,
+                            ECarrera = eCarrera
                         };
                         carreraSmall.OnTerminarCarrera += CarreraSmall_OnTerminarCarrera;
                         carreraSmall.OnCancelarCarrera += CarreraSmall_OnCancelarCarrera;
@@ -167,21 +164,19 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             informacion = "";
             DataTable dtReporte = EDetalle_vehiculos_estado.BuscarDetalleVehiculos("ID TURNO",
                 this.ETurno.Id_turno.ToString(), out string rpta);
-            List<EDetalle_vehiculos_estado> eDetalleVehiculos = new List<EDetalle_vehiculos_estado>();
+            List<EDetalle_vehiculos_estado> eDetalleActivos = new List<EDetalle_vehiculos_estado>();
+            List<EDetalle_vehiculos_estado> eDetalleTurno = new List<EDetalle_vehiculos_estado>();
             if (dtReporte != null)
             {
                 foreach (DataRow row in dtReporte.Rows)
                 {
                     EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado(row);
-                    eDetalleVehiculos.Add(eDetalle);
+                    if (eDetalle.Estado.Equals("DE TURNO"))
+                        eDetalleTurno.Add(eDetalle);
+                    else if (eDetalle.Estado.Equals("ACTIVO"))
+                        eDetalleActivos.Add(eDetalle);
                 }
             }
-
-            IEnumerable<EDetalleVehiculoEstadoCount> result = from x in eDetalleVehiculos
-                                                              group x by x into g
-                                                              let count = g.Count()
-                                                              orderby count descending
-                                                              select new EDetalleVehiculoEstadoCount { EEstado = g.Key.EEstado, Cantidad = count };
 
             DataTable dtCarrerasPerdidas =
                 ECarreras_perdidas.BuscarCarrerasPerdidas("ID TURNO",
@@ -238,13 +233,19 @@ namespace CapaPresentacion.Formularios.FormsCarreras
 
             info.Append(Environment.NewLine);
 
-            info.Append("Vehículos: ").Append(Environment.NewLine);
+            if (eDetalleActivos.Count > 0)
+                info.Append("La cantidad de carros activos fue: ").Append(eDetalleActivos.Count);
+            else
+                info.Append("No se encontraron carros activos");
 
-            foreach (EDetalleVehiculoEstadoCount ed in result)
-            {
-                info.Append("Estado: ").Append(ed.EEstado.Nombre_estado + " - ").Append("Cantidad: ");
-                info.Append(ed.Cantidad).Append(Environment.NewLine);
-            }
+            info.Append(Environment.NewLine);
+
+            if (eDetalleTurno.Count > 0)
+                info.Append("La cantidad de carros de turno fue: ").Append(eDetalleTurno.Count);
+            else
+                info.Append("No se encontraron carros de turno");
+
+            info.Append(Environment.NewLine);
 
             if (dtCarrerasPerdidas != null)
                 info.Append("La cantidad de carreras perdidas fue: ").Append(dtCarrerasPerdidas.Rows.Count);
@@ -281,10 +282,6 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                 ETurnos.BuscarTurnos("FECHA", DateTime.Now.ToString("yyyy-MM-dd"), out string rpta);
             if (dtTurnos != null)
             {
-                int id_estado_inactivo = Convert.ToInt32(ConfigurationManager.AppSettings["Id_estado_inactivo"]);
-
-                this.EEstadoInactivo = new EEstados_vehiculos(id_estado_inactivo);
-
                 ETurnos eTurno = new ETurnos(dtTurnos, 0);
                 this.ETurno = eTurno;
                 //El estado del turno puede ser ABIERTO, CERRADO
@@ -408,7 +405,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             FrmTurno frmTurno = (FrmTurno)sender;
             this.ControlesEnabled(true);
             this.ETurno = frmTurno.ETurno;
-
+            
             this.ObtenerTiempoPredeterminado();
 
             this.BuscarCarreras();
@@ -700,7 +697,6 @@ namespace CapaPresentacion.Formularios.FormsCarreras
 
         public delegate void BuscarCarrerasDelegate();
         public delegate void BuscarVehiculosDelegate();
-
         private void CarreraSmall_OnCancelarCarrera(object sender, EventArgs e)
         {
             if (this.container != null)
@@ -805,7 +801,6 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             CodigoVehiculo CodigoVehiculo = (CodigoVehiculo)sender;
             string codigo = CodigoVehiculo.txtCodigo.Text;
             string id_cliente = CodigoVehiculo.EDireccion.ECliente.Id_cliente.ToString();
-            int estado_inactivo_default = 0;
             if (!codigo.Equals(""))
             {
                 if (this.panelVehiculos.Controls.Count < 1)
@@ -833,9 +828,12 @@ namespace CapaPresentacion.Formularios.FormsCarreras
 
                     if (eDetalles.Count > 0)
                     {
-                        EEstados_vehiculos estado = eDetalles[0].EEstado;
+                        string estado = eDetalles[0].Estado;
 
-                        if (estado.Id_estado == estado_inactivo_default)
+                        if (string.IsNullOrEmpty(estado))
+                            estado = "INACTIVO";
+
+                        if (estado.Equals("INACTIVO"))
                         {
                             Mensajes.MensajeInformacion("El carro está inactivo", "Entendido");
                             return;
@@ -927,10 +925,8 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             //m_MouseHookManager.MouseDown += HookManager_MouseDown;
             //m_MouseHookManager.MouseUp += HookManager_MouseUp;
         }
-
         FrmNuevoCliente frmNuevoCliente;
         FrmNuevoVehiculo frmNuevoVehiculo;
-
         private void M_KeyboardHookManager_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((int)e.KeyChar == (int)Keys.F5)
@@ -977,6 +973,21 @@ namespace CapaPresentacion.Formularios.FormsCarreras
 
         #region VEHÍCULOS
 
+        private void BtnTurno_Click(object sender, EventArgs e)
+        {
+            this.BuscarVehiculosLocal("ESTADO", "DE TURNO");
+        }
+
+        private void BtnInactivos_Click(object sender, EventArgs e)
+        {
+            this.BuscarVehiculosLocal("ESTADO", "INACTIVO");
+        }
+
+        private void BtnActivos_Click(object sender, EventArgs e)
+        {
+            this.BuscarVehiculosLocal("ESTADO", "ACTIVO");
+        }
+
         private void BtnActualizarVehiculos_Click(object sender, EventArgs e)
         {
             this.CargarVehiculos();
@@ -990,109 +1001,125 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                 this.DtVehiculos =
                             EDetalle_vehiculos_estado.BuscarDetalleVehiculosCarreras("COMPLETO TURNO",
                             this.ETurno.Id_turno.ToString(), out string rpta);
-                //Limpio el panel
                 this.panelVehiculos.clearDataSource();
-                //Verifico que hayan resultados en la tabla
                 if (DtVehiculos != null)
                 {
-                    //Inicio un contador para cada vehículo
                     int contador = 1;
-                    //Inicio una lista de controles, donde estarán los botones que se agregarán al panel
+
                     List<Control> controls = new List<Control>();
-                    int CantidadServicios = 0;
-                    //Recorro los vehículos
+
                     foreach (DataRow row in DtVehiculos.Rows)
                     {
-                        EEstados_vehiculos eEstado;
-                        if (DtVehiculos.Columns.Contains("Id_estado"))
+                        //Guardamos el estado
+                        string estado = Convert.ToString(row["Estado"]);
+                        int CantidadServicios = 0;
+                        if (DtVehiculos.Columns.Contains("CantidadServicios"))
                         {
-                            eEstado = new EEstados_vehiculos(row);
-
-                            //Guardamos el estado                      
-                            CantidadServicios = 0;
-                            if (DtVehiculos.Columns.Contains("CantidadServicios"))
-                            {
-                                //Verificamos la cantidad de servicios
-                                string servicios = Convert.ToString(row["CantidadServicios"]);
-                                if (int.TryParse(servicios, out CantidadServicios))
-                                    row["CantidadServicios"] = CantidadServicios.ToString();
-                                else
-                                    row["CantidadServicios"] = "0";
-                            }
-                        }
-                        else
-                        {
-                            eEstado = this.EEstadoInactivo;
+                            //Verificamos la cantidad de servicios
+                            string servicios = Convert.ToString(row["CantidadServicios"]);
+                            if (int.TryParse(servicios, out CantidadServicios))
+                                row["CantidadServicios"] = CantidadServicios.ToString();
+                            else
+                                row["CantidadServicios"] = "0";
                         }
 
-                        if (eEstado != null)
+                        //SI el estado es null o vacío significa que está INACTIVO
+                        if (string.IsNullOrEmpty(estado) || estado.Equals("INACTIVO"))
                         {
-                            //SI el estado es null o el id es 0 significa que está INACTIVO
-                            if (eEstado.Id_estado == 0 || eEstado.Id_estado == this.EEstadoInactivo.Id_estado)
+                            EVehiculos eVehiculo = new EVehiculos(row);
+
+                            EDetalle_vehiculos_estado eDetalle;
+
+                            if (estado.Equals("INACTIVO"))
                             {
-                                EVehiculos eVehiculo = new EVehiculos(row);
-
-                                EDetalle_vehiculos_estado eDetalle;
-
-                                if (eEstado.Id_estado != this.EEstadoInactivo.Id_estado)
-                                {
-                                    eDetalle = new EDetalle_vehiculos_estado(row);
-                                }
-                                else
-                                {
-                                    eDetalle = new EDetalle_vehiculos_estado
-                                    {
-                                        Id_detalle_vehiculo = 0,
-                                        EVehiculo = eVehiculo,
-                                        ETurno = this.ETurno,
-                                        Fecha = DateTime.Now,
-                                        EEstado = this.EEstadoInactivo
-                                    };
-                                }
-
-                                Button btnVehiculo = new Button();
-                                btnVehiculo.Cursor = Cursors.Hand;
-                                btnVehiculo.BackColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.BorderColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.MouseDownBackColor = Color.Lime;
-                                btnVehiculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
-                                btnVehiculo.FlatStyle = FlatStyle.Flat;
-                                btnVehiculo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-                                btnVehiculo.ForeColor = eDetalle.EEstado.ColorLetra;
-                                btnVehiculo.Size = new Size(89, 63);
-                                btnVehiculo.TextAlign = ContentAlignment.TopCenter;
-                                btnVehiculo.UseVisualStyleBackColor = false;
-                                btnVehiculo.Tag = eDetalle;
-                                btnVehiculo.MouseUp += BtnVehiculo_MouseUp;
-                                btnVehiculo.Name = "btn" + contador;
-                                btnVehiculo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
-                                Environment.NewLine + "CR = " + CantidadServicios; ;
-                                controls.Add(btnVehiculo);
-                                this.toolTip1.SetToolTip(btnVehiculo, "Cantidad de servicios: " + CantidadServicios + " Estado: " + eDetalle.EEstado.Nombre_estado);
+                                eDetalle = new EDetalle_vehiculos_estado(row);
                             }
                             else
                             {
-                                EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado(row);
+                                eDetalle = new EDetalle_vehiculos_estado
+                                {
+                                    Id_detalle_vehiculo = 0,
+                                    EVehiculo = eVehiculo,
+                                    ETurno = this.ETurno,
+                                    Fecha = DateTime.Now,
+                                    Estado = estado
+                                };
+                            }
 
-                                Button btnVehiculo = new Button();
-                                btnVehiculo.Cursor = Cursors.Hand;
-                                btnVehiculo.BackColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.BorderColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.MouseDownBackColor = Color.Lime;
-                                btnVehiculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
-                                btnVehiculo.FlatStyle = FlatStyle.Flat;
-                                btnVehiculo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-                                btnVehiculo.ForeColor = eDetalle.EEstado.ColorLetra;
-                                btnVehiculo.Size = new Size(89, 63);
-                                btnVehiculo.TextAlign = ContentAlignment.TopCenter;
-                                btnVehiculo.UseVisualStyleBackColor = false;
-                                btnVehiculo.Tag = eDetalle;
-                                btnVehiculo.MouseUp += BtnVehiculo_MouseUp;
-                                btnVehiculo.Name = "btn" + contador;
-                                btnVehiculo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
+                            #region Botón personalizado inactivo
+                            Button btnVehiculoInactivo = new Button();
+                            btnVehiculoInactivo.Cursor = Cursors.Hand;
+                            btnVehiculoInactivo.BackColor = Color.FromArgb(251, 70, 70);
+                            btnVehiculoInactivo.FlatAppearance.BorderColor = Color.FromArgb(251, 70, 70);
+                            btnVehiculoInactivo.FlatAppearance.MouseDownBackColor = Color.FromArgb(251, 70, 70);
+                            btnVehiculoInactivo.FlatAppearance.MouseOverBackColor = Color.FromArgb(248, 139, 139);
+                            btnVehiculoInactivo.FlatStyle = FlatStyle.Flat;
+                            btnVehiculoInactivo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                            btnVehiculoInactivo.ForeColor = Color.FromArgb(234, 232, 229);
+                            btnVehiculoInactivo.Size = new Size(89, 63);
+                            btnVehiculoInactivo.TextAlign = ContentAlignment.TopCenter;
+                            btnVehiculoInactivo.UseVisualStyleBackColor = false;
+                            btnVehiculoInactivo.Tag = eDetalle;
+                            btnVehiculoInactivo.Name = "btn" + contador;
+                            btnVehiculoInactivo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
+                                Environment.NewLine + "CR = " + CantidadServicios;
+                            btnVehiculoInactivo.MouseUp += BtnVehiculo_MouseUp;
+                            controls.Add(btnVehiculoInactivo);
+                            this.toolTip1.SetToolTip(btnVehiculoInactivo, "Cantidad de servicios: " + CantidadServicios);
+                            #endregion
+                        }
+                        else
+                        {
+                            EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado(row);
+                            if (estado.Equals("ACTIVO"))
+                            {
+                                #region Botón personalizado activo
+                                Button btnVehiculoActivo = new Button();
+                                btnVehiculoActivo.Cursor = Cursors.Hand;
+                                btnVehiculoActivo.BackColor = Color.FromArgb(106, 246, 64);
+                                btnVehiculoActivo.FlatAppearance.BorderColor = Color.FromArgb(106, 246, 64);
+                                btnVehiculoActivo.FlatAppearance.MouseDownBackColor = Color.Lime;
+                                btnVehiculoActivo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
+                                btnVehiculoActivo.FlatStyle = FlatStyle.Flat;
+                                btnVehiculoActivo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                                btnVehiculoActivo.ForeColor = Color.FromArgb(92, 92, 92);
+                                btnVehiculoActivo.Size = new Size(89, 63);
+                                btnVehiculoActivo.TextAlign = ContentAlignment.TopCenter;
+                                btnVehiculoActivo.UseVisualStyleBackColor = false;
+                                btnVehiculoActivo.Tag = eDetalle;
+                                btnVehiculoActivo.MouseUp += BtnVehiculo_MouseUp;
+                                btnVehiculoActivo.Name = "btn" + contador;
+                                btnVehiculoActivo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
                                 Environment.NewLine + "CR = " + CantidadServicios; ;
-                                controls.Add(btnVehiculo);
-                                this.toolTip1.SetToolTip(btnVehiculo, "Cantidad de servicios: " + CantidadServicios + " Estado: " + eDetalle.EEstado.Nombre_estado);
+                                controls.Add(btnVehiculoActivo);
+                                this.toolTip1.SetToolTip(btnVehiculoActivo, "Cantidad de servicios: " + CantidadServicios);
+
+                                #endregion
+                            }
+                            else if (estado.Equals("DE TURNO"))
+                            {
+                                #region Botón personalizado de turno
+                                Button btnVehiculoTurno = new Button();
+                                btnVehiculoTurno.BackColor = Color.FromArgb(254, 173, 76);
+                                btnVehiculoTurno.Cursor = Cursors.Hand;
+                                btnVehiculoTurno.FlatAppearance.BorderColor = Color.FromArgb(254, 173, 76);
+                                btnVehiculoTurno.FlatAppearance.MouseDownBackColor = Color.FromArgb(254, 173, 76);
+                                btnVehiculoTurno.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 212, 140);
+                                btnVehiculoTurno.FlatStyle = FlatStyle.Flat;
+                                btnVehiculoTurno.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                                btnVehiculoTurno.ForeColor = Color.FromArgb(92, 92, 92);
+                                btnVehiculoTurno.Size = new Size(89, 63);
+                                btnVehiculoTurno.TextAlign = ContentAlignment.TopCenter;
+                                btnVehiculoTurno.UseVisualStyleBackColor = false;
+                                btnVehiculoTurno.Tag = eDetalle;
+                                btnVehiculoTurno.Name = "btn" + contador;
+                                btnVehiculoTurno.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
+                                Environment.NewLine + "CR = " + CantidadServicios; ;
+                                btnVehiculoTurno.MouseUp += BtnVehiculo_MouseUp;
+                                controls.Add(btnVehiculoTurno);
+                                this.toolTip1.SetToolTip(btnVehiculoTurno, "Cantidad de servicios: " + CantidadServicios);
+
+                                #endregion
                             }
                         }
                     }
@@ -1114,27 +1141,34 @@ namespace CapaPresentacion.Formularios.FormsCarreras
 
         private void BtnVehiculo_MouseUp(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right)
-            {
-                Button btn = (Button)sender;
-                EDetalle_vehiculos_estado eDetalle = (EDetalle_vehiculos_estado)btn.Tag;
+            //if (e.Button == MouseButtons.Right)
+            //{
+            //    Button btn = (Button)sender;
+            //    EDetalle_vehiculos_estado eDetalle = (EDetalle_vehiculos_estado)btn.Tag;
+            //    if (string.IsNullOrEmpty(eDetalle.Estado) ||
+            //        eDetalle.Estado.Equals("INACTIVO"))
+            //    {
+            //        return;
+            //    }
 
-                if (eDetalle.EEstado.Id_estado != 0)
-                {
-                    OpcionesVehiculos opcionesVehiculos = new OpcionesVehiculos
-                    {
-                        EVehiculo = eDetalle.EVehiculo,
-                    };
-                    opcionesVehiculos.OnBtnAgregarObservacion += OpcionesVehiculos_OnBtnAgregarObservacion;
-                    opcionesVehiculos.OnBtnEditarVehiculo += OpcionesVehiculos_OnBtnEditarVehiculo;
-                    this.container = new PoperContainer(opcionesVehiculos);
-                    this.container.Show(btn);
+            //    if (this.CarrerasEnCurso != null)
+            //    {
+            //        IEnumerable<ECarreras> Carreras =
+            //        from car in this.CarrerasEnCurso
+            //        where car.EVehiculo.Id_vehiculo == eDetalle.EVehiculo.Id_vehiculo
+            //        select car;
 
-                    return;
+            //        List<ECarreras> CarrerasEnCurso = Carreras.ToList();
 
-                }
-            }
-            else if (e.Button == MouseButtons.Left)
+            //        if (CarrerasEnCurso.Count > 0)
+            //        {
+            //            Mensajes.MensajeInformacion("El vehículo se encuentra ocupado en otra carrera", "Entendido");
+            //            return;
+            //        }
+            //    }
+            //    return;
+            //}
+            if (e.Button == MouseButtons.Left)
             {
                 Button btn = (Button)sender;
                 EDetalle_vehiculos_estado eDetalle = (EDetalle_vehiculos_estado)btn.Tag;
@@ -1145,7 +1179,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                     this.container = null;
                 }
 
-                EEstados_vehiculos estado = eDetalle.EEstado;
+                string estado = eDetalle.Estado;
 
                 //if (string.IsNullOrEmpty(estado))
                 //    estado = "INACTIVO";
@@ -1156,57 +1190,10 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                     EVehiculo = eDetalle.EVehiculo,
                     EDetalle = eDetalle
                 };
-                opcionesEstadoVehiculo.BuscarEstados("COMPLETO", "");
                 opcionesEstadoVehiculo.OnCambiarEstado += OpcionesEstadoVehiculo_OnCambiarEstado;
                 this.container = new PoperContainer(opcionesEstadoVehiculo);
                 this.container.Show(btn);
             }
-        }
-
-        private void OpcionesVehiculos_OnBtnEditarVehiculo(object sender, EventArgs e)
-        {
-            EVehiculos eVehiculo = (EVehiculos)sender;
-            FrmNuevoVehiculo frmNuevoVehiculo = new FrmNuevoVehiculo
-            {
-                StartPosition = FormStartPosition.CenterScreen,
-                IsEditar = true,
-            };
-            frmNuevoVehiculo.AsignarDatos(eVehiculo);
-            frmNuevoVehiculo.ShowDialog();
-        }
-
-        private void OpcionesVehiculos_OnBtnAgregarObservacion(object sender, EventArgs e)
-        {
-            EVehiculos eVehiculos = (EVehiculos)sender;
-
-            List<ECarreras> eCarreras =
-                   this.CarrerasEnCurso.Where(x => x.EVehiculo.Id_vehiculo == eVehiculos.Id_vehiculo).ToList();
-            if (eCarreras.Count > 0)
-            {
-                Mensajes.InputBox("Observación de vehículo", "Terminado", "Cancelar",
-               out DialogResult dialog, out string mensaje);
-                if (dialog == DialogResult.Yes)
-                {
-                    eCarreras[0].Observaciones = mensaje;
-
-                    DataRow[] rows =
-                        this.dtCarrerasCompleto.Select(string.Format("Id_carrera = '{0}' ", eCarreras[0].Id_carrera));
-                    if (rows.Length > 0)
-                    {
-                        rows[0]["Observaciones"] = mensaje;
-                    }
-
-                    string rpta = ECarreras.EditarCarrera(eCarreras[0], eCarreras[0].Id_carrera);
-                    if (!rpta.Equals("OK"))
-                    {
-                        Mensajes.MensajeInformacion("No se pudo actualizar la observación de la carrera", "Entendido");
-                    }
-                }             
-            }
-            else
-            {
-                Mensajes.MensajeInformacion("El vehículo no está en carrera", "Entendido");
-            }         
         }
 
         private void OpcionesEstadoVehiculo_OnCambiarEstado(object sender, EventArgs e)
@@ -1219,7 +1206,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                 this.container = null;
             }
 
-            if (opcionesEstadoVehiculo.EDetalle.Id_detalle_vehiculo == 0)
+            if (opcionesEstadoVehiculo.EstadoActual.Equals(""))
             {
                 //Insertar en detalle de estado de vehículo
                 EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado
@@ -1227,7 +1214,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                     Fecha = DateTime.Now,
                     EVehiculo = opcionesEstadoVehiculo.EVehiculo,
                     ETurno = this.ETurno,
-                    EEstado = opcionesEstadoVehiculo.EstadoSeleccionado
+                    Estado = opcionesEstadoVehiculo.EstadoSeleccionado
                 };
                 string rpta =
                     EDetalle_vehiculos_estado.InsertarDetaleVehiculo(eDetalle, out int id_detalle);
@@ -1249,7 +1236,7 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                 //List<DataRow> list = resultados.ToList();
 
                 EDetalle_vehiculos_estado eDetalle = opcionesEstadoVehiculo.EDetalle;
-                eDetalle.EEstado = opcionesEstadoVehiculo.EstadoSeleccionado;
+                eDetalle.Estado = opcionesEstadoVehiculo.EstadoSeleccionado;
                 string rpta = EDetalle_vehiculos_estado.EditarDetaleVehiculo(eDetalle, eDetalle.Id_detalle_vehiculo);
                 if (rpta.Equals("OK"))
                 {
@@ -1374,72 +1361,89 @@ namespace CapaPresentacion.Formularios.FormsCarreras
                         foreach (DataRow row in dtResultados.Rows)
                         {
                             //Guardamos el estado
-                            EEstados_vehiculos eEstado = new EEstados_vehiculos(row);
-
-                            int id_inactivo = 0;
+                            string estado = Convert.ToString(row["Estado"]);
 
                             //SI el estado es null o vacío significa que está INACTIVO
-                            if (eEstado.Id_estado == 0 || eEstado.Id_estado == id_inactivo)
+                            if (string.IsNullOrEmpty(estado))
                             {
                                 EVehiculos eVehiculo = new EVehiculos(row);
-                                EDetalle_vehiculos_estado eDetalle;
-
-                                if (eEstado.Id_estado == id_inactivo)
-                                    eDetalle = new EDetalle_vehiculos_estado(row);
-                                else
+                                EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado
                                 {
-                                    eDetalle = new EDetalle_vehiculos_estado
-                                    {
-                                        Id_detalle_vehiculo = 0,
-                                        EVehiculo = eVehiculo,
-                                        Fecha = DateTime.Now,
-                                        EEstado = new EEstados_vehiculos { Id_estado = id_inactivo }
-                                    };
-                                }
+                                    Id_detalle_vehiculo = 0,
+                                    EVehiculo = eVehiculo,
+                                    Fecha = DateTime.Now,
+                                    Estado = "INACTIVO"
+                                };
 
-                                Button btnVehiculo = new Button();
-                                btnVehiculo.Cursor = Cursors.Hand;
-                                btnVehiculo.BackColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.BorderColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.MouseDownBackColor = Color.Lime;
-                                btnVehiculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
-                                btnVehiculo.FlatStyle = FlatStyle.Flat;
-                                btnVehiculo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-                                btnVehiculo.ForeColor = eDetalle.EEstado.ColorLetra;
-                                btnVehiculo.Size = new Size(89, 63);
-                                btnVehiculo.TextAlign = ContentAlignment.TopCenter;
-                                btnVehiculo.UseVisualStyleBackColor = false;
-                                btnVehiculo.Tag = eDetalle;
-                                btnVehiculo.MouseUp += BtnVehiculo_MouseUp;
-                                btnVehiculo.Name = "btn" + contador;
-                                btnVehiculo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
-                                Environment.NewLine + "Código = " + eDetalle.EVehiculo.Id_vehiculo;
-                                controls.Add(btnVehiculo);
-                                this.toolTip1.SetToolTip(btnVehiculo, "Código: " + eDetalle.EVehiculo.Id_vehiculo + " Estado: " + eDetalle.EEstado.Nombre_estado);
+                                #region Botón personalizado inactivo
+                                Button btnVehiculoInactivo = new Button();
+                                btnVehiculoInactivo.Cursor = Cursors.Hand;
+                                btnVehiculoInactivo.BackColor = Color.FromArgb(251, 70, 70);
+                                btnVehiculoInactivo.FlatAppearance.BorderColor = Color.FromArgb(251, 70, 70);
+                                btnVehiculoInactivo.FlatAppearance.MouseDownBackColor = Color.FromArgb(251, 70, 70);
+                                btnVehiculoInactivo.FlatAppearance.MouseOverBackColor = Color.FromArgb(248, 139, 139);
+                                btnVehiculoInactivo.FlatStyle = FlatStyle.Flat;
+                                btnVehiculoInactivo.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                                btnVehiculoInactivo.ForeColor = Color.FromArgb(234, 232, 229);
+                                btnVehiculoInactivo.Size = new Size(89, 55);
+                                btnVehiculoInactivo.TextAlign = ContentAlignment.TopCenter;
+                                btnVehiculoInactivo.UseVisualStyleBackColor = false;
+                                btnVehiculoInactivo.Tag = eDetalle;
+                                btnVehiculoInactivo.Name = "btn" + contador;
+                                btnVehiculoInactivo.Text = "Código" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString();
+                                btnVehiculoInactivo.MouseUp += BtnVehiculo_MouseUp;
+                                controls.Add(btnVehiculoInactivo);
+                                #endregion
                             }
                             else
                             {
                                 EDetalle_vehiculos_estado eDetalle = new EDetalle_vehiculos_estado(row);
+                                if (estado.Equals("ACTIVO"))
+                                {
+                                    #region Botón personalizado activo
+                                    Button btnVehiculoActivo = new Button();
+                                    btnVehiculoActivo.Cursor = Cursors.Hand;
+                                    btnVehiculoActivo.BackColor = Color.FromArgb(106, 246, 64);
+                                    btnVehiculoActivo.FlatAppearance.BorderColor = Color.FromArgb(106, 246, 64);
+                                    btnVehiculoActivo.FlatAppearance.MouseDownBackColor = Color.Lime;
+                                    btnVehiculoActivo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
+                                    btnVehiculoActivo.FlatStyle = FlatStyle.Flat;
+                                    btnVehiculoActivo.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                                    btnVehiculoActivo.ForeColor = Color.FromArgb(92, 92, 92);
+                                    btnVehiculoActivo.Size = new Size(89, 55);
+                                    btnVehiculoActivo.TextAlign = ContentAlignment.TopCenter;
+                                    btnVehiculoActivo.UseVisualStyleBackColor = false;
+                                    btnVehiculoActivo.Tag = eDetalle;
+                                    btnVehiculoActivo.MouseUp += BtnVehiculo_MouseUp;
+                                    btnVehiculoActivo.Name = "btn" + contador;
+                                    btnVehiculoActivo.Text = "Código" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString();
 
-                                Button btnVehiculo = new Button();
-                                btnVehiculo.Cursor = Cursors.Hand;
-                                btnVehiculo.BackColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.BorderColor = eDetalle.EEstado.ColorEstado;
-                                btnVehiculo.FlatAppearance.MouseDownBackColor = Color.Lime;
-                                btnVehiculo.FlatAppearance.MouseOverBackColor = Color.FromArgb(131, 212, 96);
-                                btnVehiculo.FlatStyle = FlatStyle.Flat;
-                                btnVehiculo.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-                                btnVehiculo.ForeColor = eDetalle.EEstado.ColorLetra;
-                                btnVehiculo.Size = new Size(89, 63);
-                                btnVehiculo.TextAlign = ContentAlignment.TopCenter;
-                                btnVehiculo.UseVisualStyleBackColor = false;
-                                btnVehiculo.Tag = eDetalle;
-                                btnVehiculo.MouseUp += BtnVehiculo_MouseUp;
-                                btnVehiculo.Name = "btn" + contador;
-                                btnVehiculo.Text = "Carro" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString() +
-                                Environment.NewLine + "Código = " + eDetalle.EVehiculo.Id_vehiculo;
-                                controls.Add(btnVehiculo);
-                                this.toolTip1.SetToolTip(btnVehiculo, "Código: " + eDetalle.EVehiculo.Id_vehiculo + " Estado: " + eDetalle.EEstado.Nombre_estado);
+                                    controls.Add(btnVehiculoActivo);
+                                    #endregion
+                                }
+                                else if (estado.Equals("DE TURNO"))
+                                {
+                                    #region Botón personalizado de turno
+                                    Button btnVehiculoTurno = new Button();
+                                    btnVehiculoTurno.BackColor = Color.FromArgb(254, 173, 76);
+                                    btnVehiculoTurno.Cursor = Cursors.Hand;
+                                    btnVehiculoTurno.FlatAppearance.BorderColor = Color.FromArgb(254, 173, 76);
+                                    btnVehiculoTurno.FlatAppearance.MouseDownBackColor = Color.FromArgb(254, 173, 76);
+                                    btnVehiculoTurno.FlatAppearance.MouseOverBackColor = Color.FromArgb(255, 212, 140);
+                                    btnVehiculoTurno.FlatStyle = FlatStyle.Flat;
+                                    btnVehiculoTurno.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+                                    btnVehiculoTurno.ForeColor = Color.FromArgb(92, 92, 92);
+                                    btnVehiculoTurno.Size = new Size(89, 55);
+                                    btnVehiculoTurno.TextAlign = ContentAlignment.TopCenter;
+                                    btnVehiculoTurno.UseVisualStyleBackColor = false;
+                                    btnVehiculoTurno.Tag = eDetalle;
+
+                                    btnVehiculoTurno.Name = "btn" + contador;
+                                    btnVehiculoTurno.Text = "Código" + Environment.NewLine + eDetalle.EVehiculo.Id_vehiculo.ToString();
+                                    btnVehiculoTurno.MouseUp += BtnVehiculo_MouseUp;
+                                    controls.Add(btnVehiculoTurno);
+                                    #endregion
+                                }
                             }
                         }
                     }

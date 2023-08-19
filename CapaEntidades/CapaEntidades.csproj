@@ -33,7 +33,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ECronogramas.cs" />
     <Compile Include="EBases_clientes.cs" />
     <Compile Include="ECarreras.cs" />
     <Compile Include="ECarreras_perdidas.cs" />
@@ -53,7 +51,6 @@
     <Compile Include="EDireccion_clientes.cs" />
     <Compile Include="EBarrios.cs" />
     <Compile Include="EDetalle_vehiculos_estado.cs" />
-    <Compile Include="EEstados_vehiculos.cs" />
     <Compile Include="EVehiculos.cs" />
     <Compile Include="EClientes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

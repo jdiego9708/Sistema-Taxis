@@ -24,6 +24,7 @@ namespace CapaPresentacion.Formularios.FormsClientes
             this.txtHoja.LostFocus += TxtHoja_LostFocus;
             this.btnIniciar.Click += BtnIniciar_Click;
             this.lblResultados.Click += LblResultados_Click;
+
             this.txtHoja.KeyPress += TxtHoja_KeyPress;
         }
 

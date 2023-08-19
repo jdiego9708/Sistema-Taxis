@@ -20,7 +20,7 @@ namespace CapaEntidades
                 this.EVehiculo = new EVehiculos(row);
                 this.ETurno = new ETurnos(row);
                 this.Fecha = Convert.ToDateTime(row["Fecha"]);
-                this.EEstado = new EEstados_vehiculos(row);
+                this.Estado = Convert.ToString(row["Estado"]);
             }
             catch (Exception ex)
             {
@@ -36,7 +36,7 @@ namespace CapaEntidades
                 this.EVehiculo = new EVehiculos(dt.Rows[fila]);
                 this.ETurno = new ETurnos(dt.Rows[fila]);
                 this.Fecha = Convert.ToDateTime(dt.Rows[fila]["Fecha"]);
-                this.EEstado = new EEstados_vehiculos(dt.Rows[fila]);
+                this.Estado = Convert.ToString(dt.Rows[fila]["Estado"]);
             }
             catch (Exception ex)
             {
@@ -54,7 +54,7 @@ namespace CapaEntidades
             return DDetalle_vehiculos_estado.BuscarDetalleVehiculos(tipo_busqueda, texto_busqueda, out rpta);
         }
 
-        public static string InsertarDetaleVehiculo(EDetalle_vehiculos_estado eDetalle,
+        public static string InsertarDetaleVehiculo(EDetalle_vehiculos_estado eDetalle, 
             out int id_detalle_vehiculo)
         {
             List<string> vs = new List<string>
@@ -62,7 +62,7 @@ namespace CapaEntidades
                 eDetalle.Fecha.ToString("yyyy-MM-dd"),
                 eDetalle.EVehiculo.Id_vehiculo.ToString(),
                 eDetalle.ETurno.Id_turno.ToString(),
-                eDetalle.EEstado.Id_estado.ToString()
+                eDetalle.Estado
             };
             return DDetalle_vehiculos_estado.InsertarVehiculo(out id_detalle_vehiculo, vs);
         }
@@ -75,22 +75,23 @@ namespace CapaEntidades
                 eDetalle.Fecha.ToString("yyyy-MM-dd"),
                 eDetalle.EVehiculo.Id_vehiculo.ToString(),
                 eDetalle.ETurno.Id_turno.ToString(),
-                eDetalle.EEstado.Id_estado.ToString()
+                eDetalle.Estado
             };
             return DDetalle_vehiculos_estado.EditarVehiculo(id_detalle_vehiculo, vs);
         }
+
 
         private int _id_detalle_vehiculo;
         private DateTime _fecha;
         private EVehiculos _eVehiculo;
         private ETurnos _eTurno;
-        private EEstados_vehiculos _eEstado;
+        private string _estado;
 
         public int Id_detalle_vehiculo { get => _id_detalle_vehiculo; set => _id_detalle_vehiculo = value; }
         public DateTime Fecha { get => _fecha; set => _fecha = value; }
         public EVehiculos EVehiculo { get => _eVehiculo; set => _eVehiculo = value; }
+        public string Estado { get => _estado; set => _estado = value; }
         public ETurnos ETurno { get => _eTurno; set => _eTurno = value; }
-        public EEstados_vehiculos EEstado { get => _eEstado; set => _eEstado = value; }
 
         public event EventHandler OnError;
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SISTaxi", "SISTaxi\SISTaxi.csproj", "{B5FA77DD-1750-4C95-B773-2117A4D6D6AB}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{1785A1AE-C96A-4EAD-8DD5-C0A71B74C979}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{631014B9-CAF8-42FE-9935-11486A043F16}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSISTaxi", "SetupSISTaxi\SetupSISTaxi.vdproj", "{49E069E5-AFCF-49BE-8979-79D6B3D2E672}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,8 @@ Global
 		{631014B9-CAF8-42FE-9935-11486A043F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631014B9-CAF8-42FE-9935-11486A043F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631014B9-CAF8-42FE-9935-11486A043F16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E069E5-AFCF-49BE-8979-79D6B3D2E672}.Debug|Any CPU.ActiveCfg = Debug
+		{49E069E5-AFCF-49BE-8979-79D6B3D2E672}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -169,12 +169,8 @@ namespace CapaPresentacion.Formularios.FormsVehiculos
                     this.dgvVehiculos.Columns["Id_vehiculo"].Visible = true;
                     this.dgvVehiculos.Columns["Id_vehiculo"].HeaderText = "Código";
                     this.dgvVehiculos.Columns["Estado_vehiculo"].Visible = false;
-
-                    if (this.dgvVehiculos.Columns.Contains("Propietario"))
-                        this.dgvVehiculos.Columns["Propietario"].Visible = false;
-
-                    if (this.dgvVehiculos.Columns.Contains("Color"))
-                        this.dgvVehiculos.Columns["Color"].Visible = false;
+                    this.dgvVehiculos.Columns["Propietario"].Visible = false;
+                    this.dgvVehiculos.Columns["Color"].Visible = false;
                 }
                 else
                 {

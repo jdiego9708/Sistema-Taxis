@@ -1,0 +1,87 @@
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaEntidades.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\CapaDatos.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaEntidades\obj\Debug\CapaEntidades.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\CapaEntidades.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\CapaEntidades.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\System.Data.SQLite.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\CapaDatos.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\System.Data.SQLite.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\bin\Debug\System.Data.SQLite.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\obj\Debug\CapaEntidades.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\obj\Debug\CapaEntidades.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaEntidades\obj\Debug\CapaEntidades.pdb

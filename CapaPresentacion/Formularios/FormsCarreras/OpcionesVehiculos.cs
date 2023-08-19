@@ -17,12 +17,24 @@ namespace CapaPresentacion.Formularios.FormsCarreras
         {
             InitializeComponent();
             this.btnEditarVehiculo.Click += BtnEditarVehiculo_Click;
-            this.btnAgregarObservacion.Click += BtnAgregarObservacion_Click;
+            this.btnCambiarEstado.Click += BtnCambiarEstado_Click;
+            this.btnNuevaCarrera.Click += BtnNuevaCarrera_Click;
+            this.btnPerfil.Click += BtnPerfil_Click;
         }
 
-        private void BtnAgregarObservacion_Click(object sender, EventArgs e)
+        private void BtnPerfil_Click(object sender, EventArgs e)
         {
-            OnBtnAgregarObservacion?.Invoke(this.EVehiculo, e);
+            OnBtnVerPerfil?.Invoke(this.EVehiculo, e);
+        }
+
+        private void BtnNuevaCarrera_Click(object sender, EventArgs e)
+        {
+            OnBtnNuevaCarrera?.Invoke(this.EVehiculo, e);
+        }
+
+        private void BtnCambiarEstado_Click(object sender, EventArgs e)
+        {
+            OnBtnCambiarEstado?.Invoke(this.EVehiculo, e);
         }
 
         private void BtnEditarVehiculo_Click(object sender, EventArgs e)
@@ -30,8 +42,10 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             OnBtnEditarVehiculo?.Invoke(this.EVehiculo, e);
         }
 
-        public event EventHandler OnBtnAgregarObservacion;
         public event EventHandler OnBtnEditarVehiculo;
+        public event EventHandler OnBtnCambiarEstado;
+        public event EventHandler OnBtnNuevaCarrera;
+        public event EventHandler OnBtnVerPerfil;
 
         private void AsignarDatos(EVehiculos eVehiculo)
         {

@@ -34,8 +34,8 @@ namespace CapaDatos
         #region METODO INSERTAR VEHICULO
         public static string InsertarVehiculo(int id_vehiculo, List<string> vs)
         {
-            string consulta = "INSERT INTO Vehiculos(Id_vehiculo, Placa, Propietario, Chofer, Marca, Modelo, Color, Estado_vehiculo, Correo_chofer) " +
-                "VALUES(@Id_vehiculo, @Placa, @Propietario, @Chofer, @Marca, @Modelo, @Color, @Estado_vehiculo, @Correo_chofer); " +
+            string consulta = "INSERT INTO Vehiculos(Id_vehiculo, Placa, Propietario, Chofer, Marca, Modelo, Color, Estado_vehiculo) " +
+                "VALUES(@Id_vehiculo, @Placa, @Propietario, @Chofer, @Marca, @Modelo, @Color, @Estado_vehiculo); " +
                 "SELECT last_insert_rowid() ";
 
             SQLiteConnection SqlCon = DConexion.Conex(out string rpta);
@@ -117,14 +117,6 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(Estado_direccion);
                 contador += 1;
 
-                SQLiteParameter Correo_chofer = new SQLiteParameter
-                {
-                    ParameterName = "@Correo_chofer",
-                    Value = vs[contador].Trim().ToUpper()
-                };
-                SqlCmd.Parameters.Add(Correo_chofer);
-                contador += 1;
-
                 int id = Convert.ToInt32(SqlCmd.ExecuteScalar());
                 id_vehiculo = id;
                 if (id > 0)
@@ -167,8 +159,7 @@ namespace CapaDatos
                 "Marca = @Marca, " +
                 "Modelo = @Modelo, " +
                 "Color = @Color, " +
-                "Estado_vehiculo = @Estado_vehiculo, " +
-                "Correo_chofer = @Correo_chofer " +
+                "Estado_vehiculo = @Estado_vehiculo " +
                 "WHERE Id_vehiculo = @Id_vehiculo ";
 
             SQLiteConnection SqlCon = DConexion.Conex(out string rpta);
@@ -250,14 +241,6 @@ namespace CapaDatos
                 SqlCmd.Parameters.Add(Estado_direccion);
                 contador += 1;
 
-                SQLiteParameter Correo_chofer = new SQLiteParameter
-                {
-                    ParameterName = "@Correo_chofer",
-                    Value = vs[contador].Trim().ToUpper()
-                };
-                SqlCmd.Parameters.Add(Correo_chofer);
-                contador += 1;
-
                 rpta = SqlCmd.ExecuteNonQuery() >= 1 ? "OK" : "NO se ingresó el registro";
 
                 if (!rpta.Equals("OK"))
@@ -313,12 +296,6 @@ namespace CapaDatos
             else if (tipo_busqueda.Equals("ID VEHICULO"))
             {
                 consulta.Append("WHERE Id_vehiculo = @Texto_busqueda ");
-            }
-            else if (tipo_busqueda.Equals("TODO"))
-            {
-                consulta.Append("WHERE Placa like '%Texto_busqueda%' OR " +
-                    "Chofer like '%Texto_busqueda%' OR " +
-                    "Marca like '%Texto_busqueda%' ");
             }
 
             consulta.Append("ORDER BY Id_vehiculo DESC ");

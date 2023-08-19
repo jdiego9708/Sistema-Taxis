@@ -96,8 +96,6 @@ namespace CapaPresentacion.Formularios.FormsCarreras
             info.Append(Environment.NewLine);
             info.Append("Dirección: ").Append(eCarrera.EDireccion.Direccion).Append(" ");
             info.Append("Barrio: ").Append(eCarrera.EDireccion.EBarrio.Nombre_barrio);
-            info.Append(Environment.NewLine);
-            info.Append("Observaciones: ").Append(eCarrera.Observaciones);
             this.txtInformacion.Text = info.ToString();
 
             this.Hora_carrera = eCarrera.Hora_carrera;

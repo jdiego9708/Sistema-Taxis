@@ -137,7 +137,6 @@
     <Compile Include="Formularios\FormsCarreras\ConfigTime.Designer.cs">
       <DependentUpon>ConfigTime.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FormsCarreras\EDetalleVehiculoEstadoCount.cs" />
     <Compile Include="Formularios\FormsCarreras\EnviarEmailCarreras.cs" />
     <Compile Include="Formularios\FormsCarreras\FrmAsignarVehiculos.cs">
       <SubType>Form</SubType>
@@ -162,6 +161,12 @@
     </Compile>
     <Compile Include="Formularios\FormsCarreras\FrmNuevaCarrera.Designer.cs">
       <DependentUpon>FrmNuevaCarrera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FormsCarreras\FrmObservarCarreras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FormsCarreras\FrmObservarCarreras.Designer.cs">
+      <DependentUpon>FrmObservarCarreras.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsCarreras\FrmReporteCarrera.cs">
       <SubType>Form</SubType>
@@ -223,18 +228,6 @@
     <Compile Include="Formularios\FormsClientes\FrmNuevoCliente.designer.cs">
       <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.Designer.cs">
-      <DependentUpon>FrmCronogramaVehiculos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.Designer.cs">
-      <DependentUpon>VehiculoCronogramaSmall.cs</DependentUpon>
-    </Compile>
     <Compile Include="Formularios\FormsDireccionClientes\DireccionSmall.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -264,29 +257,6 @@
     </Compile>
     <Compile Include="Formularios\FormsEmpleados\FrmObservarEmpleados.Designer.cs">
       <DependentUpon>FrmObservarEmpleados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\Estados.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Estados.settings</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\EstadoSmall.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\EstadoSmall.Designer.cs">
-      <DependentUpon>EstadoSmall.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\FrmEstados.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\FrmEstados.Designer.cs">
-      <DependentUpon>FrmEstados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\FrmNuevoEstado.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formularios\FormsEstadosVehiculos\FrmNuevoEstado.Designer.cs">
-      <DependentUpon>FrmNuevoEstado.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsPrincipales\ConfigLicencias.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -323,11 +293,6 @@
     </Compile>
     <Compile Include="Formularios\FormsPrincipales\FormsConfiguraciones\FrmConfiguracionAplicacion.designer.cs">
       <DependentUpon>FrmConfiguracionAplicacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Formularios\FormsPrincipales\FormsConfiguraciones\GeneralSettings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>GeneralSettings.settings</DependentUpon>
     </Compile>
     <Compile Include="Formularios\FormsPrincipales\FrmIniciarSesion.cs">
       <SubType>Form</SubType>
@@ -405,7 +370,6 @@
     <Compile Include="Servicios\Hooks\HookManager.Structures.cs" />
     <Compile Include="Servicios\Hooks\HookManager.Windows.cs" />
     <Compile Include="Servicios\Hooks\MouseEventExtArgs.cs" />
-    <Compile Include="Servicios\MailHelpers.cs" />
     <Compile Include="Servicios\Mensajes.cs" />
     <Compile Include="Servicios\Mensajes\FrmInputBox.cs">
       <SubType>Form</SubType>
@@ -460,14 +424,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Formularios\FormsEstadosVehiculos\Estados.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Estados.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="Formularios\FormsPrincipales\FormsConfiguraciones\GeneralSettings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>GeneralSettings.Designer.cs</LastGenOutput>
-    </None>
     <None Include="Resources\No hay carreras.png" />
   </ItemGroup>
   <ItemGroup>
@@ -507,6 +463,9 @@
     <EmbeddedResource Include="Formularios\FormsCarreras\FrmNuevaCarrera.resx">
       <DependentUpon>FrmNuevaCarrera.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormsCarreras\FrmObservarCarreras.resx">
+      <DependentUpon>FrmObservarCarreras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsCarreras\FrmReporteCarrera.resx">
       <DependentUpon>FrmReporteCarrera.cs</DependentUpon>
     </EmbeddedResource>
@@ -538,12 +497,6 @@
     <EmbeddedResource Include="Formularios\FormsClientes\FrmNuevoCliente.resx">
       <DependentUpon>FrmNuevoCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsCronograma\FrmCronogramaVehiculos.resx">
-      <DependentUpon>FrmCronogramaVehiculos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsCronograma\VehiculoCronogramaSmall.resx">
-      <DependentUpon>VehiculoCronogramaSmall.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsDireccionClientes\DireccionSmall.resx">
       <DependentUpon>DireccionSmall.cs</DependentUpon>
     </EmbeddedResource>
@@ -558,15 +511,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsEmpleados\FrmObservarEmpleados.resx">
       <DependentUpon>FrmObservarEmpleados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsEstadosVehiculos\EstadoSmall.resx">
-      <DependentUpon>EstadoSmall.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsEstadosVehiculos\FrmEstados.resx">
-      <DependentUpon>FrmEstados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FormsEstadosVehiculos\FrmNuevoEstado.resx">
-      <DependentUpon>FrmNuevoEstado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormsPrincipales\FormsConfiguraciones\FormsBD\FrmConexionBD.resx">
       <DependentUpon>FrmConexionBD.cs</DependentUpon>
@@ -664,10 +608,6 @@
     <None Include="Resources\pencil-32x32.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\No hay estados.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\No hay vehiculos.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

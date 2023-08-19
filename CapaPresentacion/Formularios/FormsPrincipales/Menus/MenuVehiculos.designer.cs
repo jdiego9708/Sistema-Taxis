@@ -34,7 +34,6 @@
             this.btnAgregarVehiculo = new System.Windows.Forms.Button();
             this.btnInactivarVehiculo = new System.Windows.Forms.Button();
             this.btnCarreras = new System.Windows.Forms.Button();
-            this.btnEstados = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEditarVehiculo
@@ -122,29 +121,11 @@
             this.btnCarreras.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCarreras.UseVisualStyleBackColor = true;
             // 
-            // btnEstados
-            // 
-            this.btnEstados.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEstados.FlatAppearance.BorderSize = 0;
-            this.btnEstados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEstados.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEstados.ForeColor = System.Drawing.Color.White;
-            this.btnEstados.Image = ((System.Drawing.Image)(resources.GetObject("btnEstados.Image")));
-            this.btnEstados.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEstados.Location = new System.Drawing.Point(0, 247);
-            this.btnEstados.Name = "btnEstados";
-            this.btnEstados.Size = new System.Drawing.Size(141, 49);
-            this.btnEstados.TabIndex = 8;
-            this.btnEstados.Text = "Administrar \r\nestados";
-            this.btnEstados.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEstados.UseVisualStyleBackColor = true;
-            // 
             // MenuVehiculos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(152)))), ((int)(((byte)(202)))));
-            this.Controls.Add(this.btnEstados);
             this.Controls.Add(this.btnCarreras);
             this.Controls.Add(this.btnInactivarVehiculo);
             this.Controls.Add(this.btnAgregarVehiculo);
@@ -154,7 +135,7 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MenuVehiculos";
-            this.Size = new System.Drawing.Size(141, 301);
+            this.Size = new System.Drawing.Size(141, 253);
             this.ResumeLayout(false);
 
         }
@@ -165,6 +146,5 @@
         public System.Windows.Forms.Button btnAgregarVehiculo;
         public System.Windows.Forms.Button btnInactivarVehiculo;
         public System.Windows.Forms.Button btnCarreras;
-        public System.Windows.Forms.Button btnEstados;
     }
 }

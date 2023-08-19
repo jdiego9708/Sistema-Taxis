@@ -1,0 +1,17 @@
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\CapaDatos.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\EntityFramework.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\EntityFramework.SqlServer.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\System.Data.SQLite.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\System.Data.SQLite.EF6.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\System.Data.SQLite.Linq.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\EntityFramework.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\EntityFramework.SqlServer.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\System.Data.SQLite.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Release\System.Data.SQLite.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Release\CapaDatos.csproj.AssemblyReference.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Release\CapaDatos.csproj.CoreCompileInputs.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Release\CapaDatos.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Release\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Release\CapaDatos.pdb

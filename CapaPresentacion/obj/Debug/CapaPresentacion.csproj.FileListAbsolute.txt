@@ -1,0 +1,261 @@
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaEntidades.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ClosedXML.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ExcelNumberFormat.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\FastMember.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\MouseKeyboardActivityMonitor.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\System.IO.Packaging.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaDatos.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\EnvDTE.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\System.Data.SQLite.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\stdole.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaEntidades.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ClosedXML.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ClosedXML.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ExcelNumberFormat.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\MouseKeyboardActivityMonitor.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaDatos.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\System.Data.SQLite.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\System.Data.SQLite.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.CustomTextBox.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.PoperContainer.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsBarrios.FrmNuevoBarrio.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.CarreraSmall.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ClientesBases.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ClienteSmall.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.CodigoVehiculo.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ConfigTime.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmAsignarVehiculos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmCarreras.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmClienteCarrera.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmNuevaCarrera.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmObservarCarreras.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmReporteCarrera.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmTurno.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmVehiculoCarrera.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesEstadoVehiculo.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesVehiculos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesCarreras.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmBuscarClientes.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmCargarClientes.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmErroresCarga.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmNuevoCliente.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.DireccionSmall.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.FrmAgregarDireccion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.FrmObservarDirecciones.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsEmpleados.FrmNuevoEmpleado.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsEmpleados.FrmObservarEmpleados.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsBD.FrmConexionBD.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsCorreos.FrmCorreos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsLicencias.FrmGestionarLicencias.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsPersonalizacion.FrmPersonalizarAplicacion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FrmConfiguracionAplicacion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FrmIniciarSesion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FrmPrincipal.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuAdministracion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuVehiculos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuClientes.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsReportes.FrmReportes.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmCargarVehiculos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmErroresCarga.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmNuevoVehiculo.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmObservarVehiculos.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmInputBox.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeError.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeErrorCompleto.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeInformacion.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeOk.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajePregunta.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmWait.resources
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaPresentacion.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaEntidades.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ClosedXML.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ExcelNumberFormat.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\FastMember.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Design.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\MouseKeyboardActivityMonitor.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\System.IO.Packaging.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\EnvDTE.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\System.Data.SQLite.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaEntidades.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ClosedXML.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ClosedXML.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\DocumentFormat.OpenXml.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ExcelNumberFormat.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\MouseKeyboardActivityMonitor.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\CapaDatos.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\System.Data.SQLite.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\System.Data.SQLite.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.CustomTextBox.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.PoperContainer.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsBarrios.FrmNuevoBarrio.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.CarreraSmall.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ClientesBases.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ClienteSmall.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.CodigoVehiculo.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.ConfigTime.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmAsignarVehiculos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmCarreras.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmClienteCarrera.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmNuevaCarrera.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmObservarCarreras.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmReporteCarrera.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmTurno.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.FrmVehiculoCarrera.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesEstadoVehiculo.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesVehiculos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsCarreras.OpcionesCarreras.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmBuscarClientes.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmCargarClientes.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmErroresCarga.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsClientes.FrmNuevoCliente.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.DireccionSmall.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.FrmAgregarDireccion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsDireccionClientes.FrmObservarDirecciones.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsEmpleados.FrmNuevoEmpleado.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsEmpleados.FrmObservarEmpleados.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsBD.FrmConexionBD.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsCorreos.FrmCorreos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsLicencias.FrmGestionarLicencias.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FormsPersonalizacion.FrmPersonalizarAplicacion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FormsConfiguraciones.FrmConfiguracionAplicacion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FrmIniciarSesion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.FrmPrincipal.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuAdministracion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuVehiculos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsPrincipales.Menus.MenuClientes.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsReportes.FrmReportes.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmCargarVehiculos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmErroresCarga.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmNuevoVehiculo.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Formularios.FormsVehiculos.FrmObservarVehiculos.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmInputBox.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeError.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeErrorCompleto.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeInformacion.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajeOk.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmMensajePregunta.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.Servicios.Mensajes.FrmWait.resources
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

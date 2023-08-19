@@ -1,0 +1,115 @@
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\Juan Diego\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\PROYECTOS\EN CURSO\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Juan Diego\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+D:\JUAN DIEGO\Google Drive\Proyectos en curso\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\CapaDatos.pdb
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.xml
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.dll
+E:\Backup Google Drive\Proyectos\SISTaxi\SISTaxi\CapaDatos\obj\Debug\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\CapaDatos.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\CapaDatos.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\EntityFramework.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\System.Data.SQLite.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\System.Data.SQLite.EF6.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\System.Data.SQLite.Linq.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\EntityFramework.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\System.Data.SQLite.xml
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\bin\Debug\System.Data.SQLite.dll.config
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Debug\CapaDatos.dll
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaDatos\obj\Debug\CapaDatos.pdb
