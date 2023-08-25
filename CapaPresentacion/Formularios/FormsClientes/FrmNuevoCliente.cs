@@ -147,7 +147,7 @@ namespace CapaPresentacion.Formularios.FormsClientes
                         if (this.IsEditar)
                         {
                             eDireccion.ECliente = this.ECliente;
-
+                            this.EDireccion = eDireccion;
                             rpta = EDireccion_clientes.EditarDireccion(eDireccion, this.EDireccion.Id_direccion);
                             OnClienteEditSuccess?.Invoke(eCliente, e);
                             OnClienteEditSuccessDireccion?.Invoke(eDireccion, e);

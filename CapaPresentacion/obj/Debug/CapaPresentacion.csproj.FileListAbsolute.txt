@@ -259,3 +259,4 @@ G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresenta
 G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+G:\JUAN DIEGO\Repositorios\Sistema-Taxis\CapaPresentacion\bin\Debug\stdole.dll
